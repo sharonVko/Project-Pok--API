@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/images/pokedexLogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <div id="app">
+      <div><img class="pokemon__logo" src="./src/images/pokedexLogo.png" alt="pokemon-logo"></div>
+      <section id="search__wrapper">
+        <div>
+          <input type="text" name="" id="search__input" placeholder="search your favorite Pokémon">
+        </div>
+        <div class="type__buttons">
+          <button class="bug">BUG</button>
+          <button class="dragon">DRAGON</button>
+          <button class="electric">ELECTRIC</button>
+          <button class="dark">DARK</button>
+          <button class="fairy">FAIRY</button>
+          <button class="ghost">GHOST</button>
+          <button class="fighting">FIGHTING</button>
+          <button class="grass">GRASS</button>
+          <button class="fire">FIRE</button>
+          <button class="ground">GROUND</button>
+          <button class="flying">FLYING</button>
+          <button class="ice">ICE</button>
+          <button class="normal">NORMAL</button>
+          <button class="rock">ROCK</button>
+          <button class="steel">STEEL</button>
+          <button class="poison">POISON</button>
+          <button class="psychic">PSYCHIC</button>
+          <button class="water">WATER</button>
+        </div>
+      </section>
+      <div class="pagination">
+        <button class="prev">Previous</button>
+        <button class="next">Next</button>
+      </div>
+      <section id="display__cards__wrapper"></section>
+      <div class="pagination">
+        <button class="prev">Previous</button>
+        <button class="next">Next</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
