@@ -26,6 +26,6 @@ _Pokedex_ is a project developed by a team of two members, [cadeteandre](https:/
 
 4. TypeScript: Scripting language to add interactivity and functionality.
 
-## Acknowledgments
+## Acknowledgements
 
 Thanks to pokeapi.co for providing the Pokémon data.
