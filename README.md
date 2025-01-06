@@ -1,14 +1,14 @@
 # Pokedex
 
-Overview
+## Overview
 
 _Pokedex_ is a project developed by a team of two members, cadeteandre and sharonVko. The project was designed entirely by us and built using Vite, HTML, CSS, and TypeScript. The data is fetched from an API, allowing users to search for their favorite Pokémon or filter by various Pokémon types. The Pokémon are displayed on cards across multiple pages (pagination).
 
-Preview
+## Preview
 
 ![screenshot](./src/images/previewIMG.png)
 
-Features
+## Features
 
 1. Search Functionality: Users can search for their favorite Pokémon by name.
 
@@ -16,7 +16,7 @@ Features
 
 3. Pagination: Pokémon are displayed on cards and paginated for easy navigation.
 
-Technologies Used
+## Technologies Used
 
 1. Vite: Build tool and development server.
 
@@ -26,6 +26,6 @@ Technologies Used
 
 4. TypeScript: Scripting language to add interactivity and functionality.
 
-Acknowledgments
+## Acknowledgments
 
 Thanks to pokeapi.co for providing the Pokémon data.
